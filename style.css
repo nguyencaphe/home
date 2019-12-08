@@ -1,6 +1,7 @@
+/*css reset*/
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 *, *:before, *:after {
@@ -10,14 +11,28 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: normal;
-}
-
-ol, ul {
-  list-style: none;
+  'font-weight: normal;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+/*end css reset*/
+
+.site-header{
+    
+height: 15%;
+
+}
+.site-header h1{
+    float: left;
+}
+.header-contacts{
+    float: right;
+}
+h2{
+    margin: 1em 0 0.5em 0;
+    
+}
 }
