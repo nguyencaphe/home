@@ -1,7 +1,7 @@
 /*css reset*/
 html {
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 *, *:before, *:after {
@@ -11,7 +11,6 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  'font-weight: normal;
 }
 
 img {
@@ -21,13 +20,12 @@ img {
 /*end css reset*/
 
 .site{
-    padding: 0em 1em 0;
+    
     font-family: 'Karla', sans-serif;
 }
 .site-header{
 display: flex;
-height: 3em;
-background-color: aqua;
+height: 4rem;
 
 }
 .site-header h1{
@@ -36,20 +34,27 @@ background-color: aqua;
 .header-contacts{
     width: 50%;
     text-align: right;
-    line-height: 3em;
+    line-height: 4rem;
+    padding-right: 1rem;
 }
 
 h1{
     font-family: 'Literata', serif;
-    
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 1rem;
 }
 h2, h3, h4, h5, h6{
-    margin: 2em 0 0.2em 0;
+    font-size: 1.4rem;
+    margin: 2rem 1rem 0.2em 1rem;
     font-family: 'Literata', serif;
+    
 }
-.site-content p{
+.site-content p, .site-footer p{
+    margin: 0 1rem;
+    font-size: 1rem;
     line-height: 1.4em;
-
+    
 }
 .slider{
     width:90%;
@@ -91,4 +96,8 @@ h2, h3, h4, h5, h6{
 .product-name{
     margin: 0.5em 0 0.2em;
     font-weight: bold;
+}
+.site-footer{
+    background-color: brown;
+    padding-bottom: 1rem;
 }
