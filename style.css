@@ -25,20 +25,23 @@ img {
     font-family: 'Karla', sans-serif;
 }
 .site-header{
-    
-height: 15%;
-vertical-align: middle;
+display: flex;
+height: 3em;
+background-color: aqua;
 
 }
 .site-header h1{
-    float: left;
+    width: 50%;
 }
 .header-contacts{
-    float: right;
+    width: 50%;
+    text-align: right;
+    line-height: 3em;
 }
 
 h1{
     font-family: 'Literata', serif;
+    
 }
 h2, h3, h4, h5, h6{
     margin: 2em 0 0.2em 0;
@@ -74,4 +77,18 @@ h2, h3, h4, h5, h6{
     bottom: 8px;
     left: 10px;
     
+}
+.product{
+    width: 100%;
+    display: inline-block;
+    margin: 1em 0 0;
+}
+.product-img{
+    width: 8em;
+    float: left;
+    ;
+}
+.product-name{
+    margin: 0.5em 0 0.2em;
+    font-weight: bold;
 }
