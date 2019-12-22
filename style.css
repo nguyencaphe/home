@@ -1,7 +1,7 @@
 /*css reset*/
 html {
   box-sizing: border-box;
-  font-size: 1.2em;
+  font-size: 14px;
 }
 
 *, *:before, *:after {
@@ -20,9 +20,14 @@ img {
 }
 /*end css reset*/
 
+.site{
+    padding: 0em 1em 0;
+    font-family: 'Karla', sans-serif;
+}
 .site-header{
     
 height: 15%;
+vertical-align: middle;
 
 }
 .site-header h1{
@@ -31,8 +36,42 @@ height: 15%;
 .header-contacts{
     float: right;
 }
-h2{
-    margin: 1em 0 0.5em 0;
-    
+
+h1{
+    font-family: 'Literata', serif;
 }
+h2, h3, h4, h5, h6{
+    margin: 2em 0 0.2em 0;
+    font-family: 'Literata', serif;
+}
+.site-content p{
+    line-height: 1.4em;
+
+}
+.slider{
+    width:90%;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+}
+.slide{
+    overflow: hidden;
+    width:100%;
+    position: relative;
+}
+.slide img{
+    width:100%;
+    margin: 0.5em;
+}
+.slide span{
+    display: none;
+    background-color: darkslategrey;
+    color: azure;
+    float:left;
+    position:absolute;
+    text-align: left;
+    width:96%;
+    bottom: 8px;
+    left: 10px;
+    
 }
