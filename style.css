@@ -20,29 +20,35 @@ img {
 /*end css reset*/
 
 .site{
-    
+    max-width: 50rem;
     font-family: 'Open sans', sans-serif;
+    margin: auto;
 }
 .site-header{
 display: flex;
-height: 4.5rem;
-
 }
-.site-header h1{
-    width: 50%;
+.logo-img{
+    
+    width: auto;
+    height: 4.5rem;
+    float: left;
+    margin: 2rem 0rem 1rem 1rem;
 }
 .header-contacts{
     width: 50%;
     text-align: right;
-    line-height: 4.5rem;
+    line-height: 7.5rem;
     padding-right: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    float: right;
 }
 .intro{
-    padding: 1rem;
+    padding: 1rem 0 2rem 0;
 }
-.intro, .site-footer{
-    background-color: #0C0101;
-    color: F2E6E6;
+.intro{
+    background-color: white;
+    color: 1D0304;
 }
 .intro img{
     margin-bottom: 1rem;
@@ -58,7 +64,7 @@ height: 4.5rem;
     margin-top: 1rem;
     margin: auto;
     
-    background-color: #1DB954;
+    background-color: #33D99D;
     border-radius: 1.2em;
     color: white;
     
@@ -75,7 +81,7 @@ h1{
     margin-left: 1rem;
 }
 h2, h3, h4, h5, h6{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 2rem 1rem 0.2em 1rem;
     font-family: 'Lora', serif;
     
@@ -83,7 +89,7 @@ h2, h3, h4, h5, h6{
 .site-content p, .site-footer p{
     margin: 0 1rem;
     font-size: 1rem;
-    line-height: 1.4em;
+    line-height: 150%;
     
 }
 .slider{
@@ -114,28 +120,49 @@ h2, h3, h4, h5, h6{
     
 }
 .values{
-    
-
+    background-color: #33D99D;
+    color: 04422C;
+    padding-bottom: 2rem;
+}
+.values h2 {
+    text-align: center;
+}
+.values h2:first-child {
+    font-size: 2rem;
 }
 .products{
-    
+    padding-bottom: 2rem;
     
 }
 .product{
     width: 100%;
     display: inline-block;
-    margin: 1em 0 0;
+    margin: 1em 0 0 ;
+}
+.products h2:first-child{
+    text-align: center;
+    font-size: 2rem;
 }
 .product-img{
     width: 8em;
     float: left;
-    ;
+    margin-left: 1rem;
+}
+.product {
+    font-size: 0.85rem;
 }
 .product-name{
     margin: 0.5em 0 0.2em;
     font-weight: bold;
 }
+.nguyen-cafe{
+    padding-bottom: 2rem;
+    background-color: #E5BC2A;
+}
 .site-footer{
-
+    background-color: #321C03;
+    color: white;
     padding-bottom: 1rem;
+    line-height: 150%;
+    
 }
