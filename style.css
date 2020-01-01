@@ -1,7 +1,7 @@
 /*css reset*/
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 *, *:before, *:after {
@@ -21,11 +21,11 @@ img {
 
 .site{
     
-    font-family: 'Karla', sans-serif;
+    font-family: 'Open sans', sans-serif;
 }
 .site-header{
 display: flex;
-height: 4rem;
+height: 4.5rem;
 
 }
 .site-header h1{
@@ -34,20 +34,50 @@ height: 4rem;
 .header-contacts{
     width: 50%;
     text-align: right;
-    line-height: 4rem;
+    line-height: 4.5rem;
     padding-right: 1rem;
+}
+.intro{
+    padding: 1rem;
+}
+.intro, .site-footer{
+    background-color: #0C0101;
+    color: F2E6E6;
+}
+.intro img{
+    margin-bottom: 1rem;
+  
+}
+.intro p{
+      padding-bottom: 1em;
+}
+.contact-link, .contact-link:visited{
+    width: 12em;
+    display: block;
+    padding: 0.6em;
+    margin-top: 1rem;
+    margin: auto;
+    
+    background-color: #1DB954;
+    border-radius: 1.2em;
+    color: white;
+    
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    
 }
 
 h1{
-    font-family: 'Literata', serif;
+    font-family: 'Lora', serif;
     font-size: 2rem;
-    line-height: 4rem;
+    line-height: 4.5rem;
     margin-left: 1rem;
 }
 h2, h3, h4, h5, h6{
     font-size: 1.4rem;
-    margin: 2rem 1rem 0.2em 1rem;
-    font-family: 'Literata', serif;
+    padding: 2rem 1rem 0.2em 1rem;
+    font-family: 'Lora', serif;
     
 }
 .site-content p, .site-footer p{
@@ -83,6 +113,14 @@ h2, h3, h4, h5, h6{
     left: 10px;
     
 }
+.values{
+    
+
+}
+.products{
+    
+    
+}
 .product{
     width: 100%;
     display: inline-block;
@@ -98,6 +136,6 @@ h2, h3, h4, h5, h6{
     font-weight: bold;
 }
 .site-footer{
-    background-color: brown;
+
     padding-bottom: 1rem;
 }
