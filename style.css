@@ -43,6 +43,10 @@ display: flex;
     font-size: 1.2rem;
     float: right;
 }
+.icon{
+    width: 1.2em;
+    margin-right: 0.15em;
+}
 .intro{
     padding: 1rem 0 2rem 0;
 }
