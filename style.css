@@ -3,7 +3,14 @@ html {
   box-sizing: border-box;
   font-size: 1em;
 }
-
+:root{
+    --button-color: #1DA833;
+    --values-bg-color: #CCFFD4;
+    --values-text-color: #141515;
+    --footer-bg-color: #3C241E;
+    --footer-text-color: #DAC1C3;
+    
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -68,7 +75,7 @@ display: flex;
     margin-top: 1rem;
     margin: auto;
     
-    background-color: #33D99D;
+    background-color: var(--button-color);
     border-radius: 1.2em;
     color: white;
     
